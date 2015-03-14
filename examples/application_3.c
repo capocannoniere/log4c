@@ -118,7 +118,7 @@ int main(int argc, char** argv)
       	__LINE__, __FILE__);
 
     /* using the new API with the define wrapper */
-    log4c_category_log_userinfo(mycat, &userloc,  LOG4C_PRIORITY_DEBUG, "Debug app3 wrapper define");
+    log4c_category_log_userinfo(mycat, &userloc,  LOG4C_PRIORITY_DEBUG, "Debug app3 wrapper define", "");
 
     sleep(3);
     

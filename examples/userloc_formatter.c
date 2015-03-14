@@ -34,15 +34,17 @@ static const char* userloc_format(
     static char buffer[4096];
     user_locinfo_t* uloc = NULL;
 
-    sd_debug("Formatter s13_userloc checking location info for userdata %X",a_event->evt_loc->loc_data);
+    //sd_debug("Formatter s13_userloc checking location info for userdata %X",a_event->evt_loc->loc_data);
     if (a_event->evt_loc->loc_data != NULL)
     {
+	/*
 	sd_debug("Formatter s13_userloc getting a valid user location info pointer");
         uloc = (user_locinfo_t*) a_event->evt_loc->loc_data;
         sprintf(buffer, "[%s][HOST:%s][PID:%i][FILE:%s][LINE:%i][MSG:%s]",
 		a_event->evt_category,  
 		uloc->hostname, uloc->pid, a_event->evt_loc->loc_file,
 		a_event->evt_loc->loc_line,a_event->evt_msg);
+	*/
 
     }
     else
