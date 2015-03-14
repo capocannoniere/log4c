@@ -1,0 +1,57 @@
+nuget {
+	nuspec {
+		id = log4c;
+		version: 1.2.4;
+		title: Log4C;
+		authors: {Cédric Le Goater, Alexey Ariskin};
+		owners: {Cédric Le Goater, Alexey Ariskin};
+		licenseUrl: "http://www.apache.org/licenses/LICENSE-2.0";
+		projectUrl: "https://github.com/capocannoniere/log4c";
+		iconUrl: "https://download-codeplex.sec.s-msft.com/Download?ProjectName=casablanca&DownloadId=630102&Build=20425";
+		requireLicenseAcceptance: false;
+		summary: Log4C library;
+		description: @"This is the distribution of log4c library originally written by Cédric Le Goater legoater@meiosys.com which is modified to build it from Microsoft Visual Studio.";
+		releaseNotes: "Release of Log4C library version 1.2.4.";
+		copyright: Copyright 2015;
+		tags: { native, log, log4c };
+	};
+
+	// the files that go into the content folders
+	files {
+		include: { 
+			"src\**\*.h"
+		};
+
+		// Documents that we want to ship with the package. 
+		docs: {  doc\Doxyfile };
+    
+		[x64,v120,debug] { 
+			lib: msvs\Debug-x64\liblog4c-3.lib;
+			symbols: msvs\Debug-x64\liblog4c-3.pdb;
+			bin: msvs\Debug-x64\liblog4c-3.dll;
+		}
+			
+		[x64,v120,release] { 
+			lib: msvs\Release-x64\liblog4c-3.lib;
+			symbols: msvs\Release-x64\liblog4c-3.pdb;
+			bin: msvs\Release-x64\liblog4c-3.dll;
+		}
+		
+		[x86,v120,debug] { 
+			lib: msvs\Debug-Win32\liblog4c-3.lib;
+			symbols: msvs\Debug-Win32\liblog4c-3.pdb;
+			bin: msvs\Debug-Win32\liblog4c-3.dll;
+		}
+			
+		[x86,v120,release] { 
+			lib: msvs\Release-Win32\liblog4c-3.lib;
+			symbols: msvs\Release-Win32\liblog4c-3.pdb;
+			bin: msvs\Release-Win32\liblog4c-3.dll;
+		}
+	};
+	
+	targets {
+		// We're trying to be standard about these sorts of thing. (Will help with config.h later :D)
+		Defines += HAS_LOG4C;
+	};
+}

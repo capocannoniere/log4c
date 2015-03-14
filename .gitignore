@@ -57,3 +57,4 @@ msvs/log4c/Release-Win32/
 msvs/log4c/Release-x64/
 *.ipch
 msvs/log4c.sdf
+*.nupkg
