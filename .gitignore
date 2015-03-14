@@ -1,0 +1,60 @@
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+Makefile
+build-cygwin32/
+build-cygwin64/
+build-mingw-i686-posix-dwarf/
+build-mingw-i686-posix-sjlj/
+build-mingw-x86_64-posix-seh/
+build-mingw-x86_64-posix-sjlj/
+config.status
+doc/Doxyfile
+doc/main.doc
+examples/.deps/
+examples/helloworld/.deps/
+examples/helloworld1/.deps/helloworld1.Po
+log4c-config
+src/sd/.deps/
+src/log4c/.deps/version.Plo
+src/log4c/.deps/
+src/stamp-h1
+tests/log4c/.deps/
+log4c.pc
+log4c.spec
+msvs/Debug-Win32/
+msvs/log4c/Release-Win32/
+msvs/log4c/Release-x64/
+msvs/log4c/Debug-x64/
+msvs/Debug-x64/
+msvs/log4c/Debug-Win32/
+msvs/Release-Win32/
+msvs/Release-x64/
+*.ipch
+msvs/log4c.sdf

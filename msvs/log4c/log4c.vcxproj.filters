@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\log4c">
+      <UniqueIdentifier>{0ba52197-9cda-4728-a43f-284fe1aa772b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sd">
+      <UniqueIdentifier>{940f9b52-fd7f-4e37-8fd2-443437f7fa6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\log4c">
+      <UniqueIdentifier>{f9082533-193d-4996-b7e2-62987f7bbe8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sd">
+      <UniqueIdentifier>{da317814-3c8c-4cf2-8a4e-334cc7955c85}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\log4c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sd\defs.h">
+      <Filter>Header Files\sd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sd\domnode.h">
+      <Filter>Header Files\sd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sd\domnode-xml.h">
+      <Filter>Header Files\sd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sd\domnode-xml-parser.h">
+      <Filter>Header Files\sd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sd\domnode-xml-scanner.h">
+      <Filter>Header Files\sd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sd\error.h">
+      <Filter>Header Files\sd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sd\factory.h">
+      <Filter>Header Files\sd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sd\hash.h">
+      <Filter>Header Files\sd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sd\list.h">
+      <Filter>Header Files\sd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sd\malloc.h">
+      <Filter>Header Files\sd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sd\sd_xplatform.h">
+      <Filter>Header Files\sd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sd\sprintf.h">
+      <Filter>Header Files\sd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sd\stack.h">
+      <Filter>Header Files\sd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sd\test.h">
+      <Filter>Header Files\sd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\log4c\appender.h">
+      <Filter>Header Files\log4c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\log4c\appender_type_rollingfile.h">
+      <Filter>Header Files\log4c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\log4c\appender_type_stream.h">
+      <Filter>Header Files\log4c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\log4c\appender_type_stream2.h">
+      <Filter>Header Files\log4c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\log4c\appender_type_syslog.h">
+      <Filter>Header Files\log4c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\log4c\buffer.h">
+      <Filter>Header Files\log4c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\log4c\category.h">
+      <Filter>Header Files\log4c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\log4c\config-win32.h">
+      <Filter>Header Files\log4c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\log4c\defs.h">
+      <Filter>Header Files\log4c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\log4c\init.h">
+      <Filter>Header Files\log4c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\log4c\layout.h">
+      <Filter>Header Files\log4c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\log4c\layout_type_basic.h">
+      <Filter>Header Files\log4c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\log4c\layout_type_basic_r.h">
+      <Filter>Header Files\log4c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\log4c\layout_type_dated.h">
+      <Filter>Header Files\log4c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\log4c\layout_type_dated_local.h">
+      <Filter>Header Files\log4c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\log4c\layout_type_dated_local_r.h">
+      <Filter>Header Files\log4c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\log4c\layout_type_dated_r.h">
+      <Filter>Header Files\log4c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\log4c\location_info.h">
+      <Filter>Header Files\log4c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\log4c\logging_event.h">
+      <Filter>Header Files\log4c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\log4c\priority.h">
+      <Filter>Header Files\log4c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\log4c\rc.h">
+      <Filter>Header Files\log4c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\log4c\rollingpolicy.h">
+      <Filter>Header Files\log4c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\log4c\rollingpolicy_type_sizewin.h">
+      <Filter>Header Files\log4c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\log4c\version.h">
+      <Filter>Header Files\log4c</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="log4c.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sd\domnode.c">
+      <Filter>Source Files\sd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sd\domnode-xml.c">
+      <Filter>Source Files\sd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sd\domnode-xml-parser.c">
+      <Filter>Source Files\sd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sd\domnode-xml-scanner.c">
+      <Filter>Source Files\sd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sd\error.c">
+      <Filter>Source Files\sd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sd\factory.c">
+      <Filter>Source Files\sd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sd\hash.c">
+      <Filter>Source Files\sd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sd\list.c">
+      <Filter>Source Files\sd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sd\malloc.c">
+      <Filter>Source Files\sd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sd\sd_xplatform.c">
+      <Filter>Source Files\sd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sd\sprintf.c">
+      <Filter>Source Files\sd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sd\sprintf.osf.c">
+      <Filter>Source Files\sd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sd\stack.c">
+      <Filter>Source Files\sd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sd\test.c">
+      <Filter>Source Files\sd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\log4c\appender.c">
+      <Filter>Source Files\log4c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\log4c\appender_type_rollingfile.c">
+      <Filter>Source Files\log4c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\log4c\appender_type_stream.c">
+      <Filter>Source Files\log4c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\log4c\appender_type_stream2.c">
+      <Filter>Source Files\log4c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\log4c\appender_type_syslog.c">
+      <Filter>Source Files\log4c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\log4c\category.c">
+      <Filter>Source Files\log4c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\log4c\init.c">
+      <Filter>Source Files\log4c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\log4c\layout.c">
+      <Filter>Source Files\log4c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\log4c\layout_type_basic.c">
+      <Filter>Source Files\log4c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\log4c\layout_type_basic_r.c">
+      <Filter>Source Files\log4c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\log4c\layout_type_dated.c">
+      <Filter>Source Files\log4c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\log4c\layout_type_dated_local.c">
+      <Filter>Source Files\log4c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\log4c\layout_type_dated_local_r.c">
+      <Filter>Source Files\log4c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\log4c\layout_type_dated_r.c">
+      <Filter>Source Files\log4c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\log4c\logging_event.c">
+      <Filter>Source Files\log4c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\log4c\priority.c">
+      <Filter>Source Files\log4c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\log4c\rc.c">
+      <Filter>Source Files\log4c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\log4c\rollingpolicy.c">
+      <Filter>Source Files\log4c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\log4c\rollingpolicy_type_sizewin.c">
+      <Filter>Source Files\log4c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\log4c\version.c">
+      <Filter>Source Files\log4c</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\log4c\liblog4c.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
