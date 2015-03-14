@@ -27,7 +27,6 @@
 *.i*86
 *.x86_64
 *.hex
-<<<<<<< HEAD
 Makefile
 build-cygwin32/
 build-cygwin64/
@@ -59,5 +58,3 @@ msvs/Release-Win32/
 msvs/Release-x64/
 *.ipch
 msvs/log4c.sdf
-=======
->>>>>>> origin/master
